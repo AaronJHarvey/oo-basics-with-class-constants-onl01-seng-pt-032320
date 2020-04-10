@@ -5,9 +5,12 @@ BRANDS=[]
 
   def initialize(brand)
     @brand = brand
-    if brand
+    if brand.include? brand 
+    else 
+      
 BRANDS << brand  
   end
+end
 
   def cobble
     self.condition = "new"
