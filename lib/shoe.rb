@@ -7,8 +7,7 @@ BRANDS=[]
     @brand = brand
     if brand.include? (brand) 
     else 
-      
-BRANDS << brand  
+    BRANDS << brand  
   end
 end
 
